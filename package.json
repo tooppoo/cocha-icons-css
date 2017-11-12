@@ -15,9 +15,17 @@
     "scss",
     "css"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/topo-js/cocha-icons-css"
+  },
+  "bugs": {
+    "url": "https://github.com/topo-js/cocha-icons-css/issues"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node demo/server.js"
   },
   "author": "topo",
-  "license": "Creative Commons Attribution-ShareAlike 4.0 International License"
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
+  "devDependencies": {}
 }

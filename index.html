@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- cocha-icons-css -->
+    <link rel="stylesheet" href="assets/stylesheets/cocha.css">
+  </head>
+  <body>
+    <header data-is="demo-header" observer="{ switchObserver }"></header>
+    <article class="container">
+      <demo-content></demo-content>
+    </article>
+    <footer data-is="demo-footer"></footer>
+
+    <!-- riot components -->
+    <script data-src="demo/header.tag" type="riot/tag" on></script>
+    <script data-src="demo/content.tag" type="riot/tag"></script>
+    <script data-src="demo/footer.tag" type="riot/tag"></script>
+
+    <script data-src="demo/content/introduction.tag" type="riot/tag"></script>
+
+    <script data-src="demo/content/icon/item.tag" type="riot/tag"></script>
+    <script data-src="demo/content/icon/group.tag" type="riot/tag"></script>
+    <script data-src="demo/content/icon/list.tag" type="riot/tag"></script>
+    <script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+    <script>
+      riot.mount("*");
+
+      this.switchObserver = riot.observable();
+
+      this.switchObserver.on('switch', component => {
+        riot.mount('demo-content', { component });
+      });
+    </script>
+  </body>
+</html>
