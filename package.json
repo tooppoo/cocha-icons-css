@@ -1,0 +1,15 @@
+{
+  "name": "cocha-icons-css",
+  "version": "1.0.0",
+  "description": "enable to use cocha-icons as css.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "topo",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
