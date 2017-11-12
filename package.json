@@ -2,7 +2,19 @@
   "name": "cocha-icons-css",
   "version": "1.0.0",
   "description": "enable to use cocha-icons as css.",
-  "main": "index.js",
+  "style": "assets/stylesheets/cocha.css",
+  "sass": "src/sass/cocha.scss",
+  "files": [
+    "assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "cocha-icons",
+    "network icons",
+    "scss",
+    "css"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
