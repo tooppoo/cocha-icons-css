@@ -43,10 +43,10 @@
         name: "Icon List",
         href: "#icon-list"
       },
-      // {
-      //   name: "Layout Sample",
-      //   href: "#layout-sample"
-      // },
+      {
+        name: "Layout Sample",
+        href: "#layout-sample"
+      },
       {
         name: "Github",
         href: "https://github.com/topo-js/cocha-icons-css"
