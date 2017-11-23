@@ -3,7 +3,7 @@
     <article class="container">
       <section class="row">
         <a href="https://github.com/k-tamura/cocha-icons">
-          <img src="https://github.com/k-tamura/cocha-icons/raw/master/mark.png" alt="mark.png" style="max-width:100%;">
+          <div class="cocha-mark"></div>
         </a>
       </section>
     </article>

@@ -1,5 +1,5 @@
-
 <icon-list>
+  <h3>Icon List</h3>
   <icon-group list={ human } kind_name="Human Icons">
     <div each={ name, i in list } class="col s6 m4">
       <icon-item name={ name }></icon-item>
@@ -19,6 +19,12 @@
   </icon-group>
 
   <icon-group list={ symbols } kind_name="Symbol Icons">
+    <div each={ name, i in list } class="col s6 m4">
+      <icon-item name={ name }></icon-item>
+    </div>
+  </icon-group>
+
+  <icon-group list={ others } kind_name="Other Icons">
     <div each={ name, i in list } class="col s6 m4">
       <icon-item name={ name }></icon-item>
     </div>
@@ -66,6 +72,9 @@
       "firewall_r",
       "firewall",
       "mail"
+    ];
+    this.others = [
+      "mark"
     ];
   </script>
 </icon-list>
