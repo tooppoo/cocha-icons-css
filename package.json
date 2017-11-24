@@ -1,7 +1,7 @@
 {
   "name": "cocha-icons-css",
   "version": "0.0.1",
-  "description": "enable to use cocha-icons as css.",
+  "description": "provide cocha-icons as css.",
   "style": "assets/stylesheets/cocha.css",
   "sass": "src/sass/cocha.scss",
   "files": [
@@ -15,6 +15,7 @@
     "scss",
     "css"
   ],
+  "homepage": "https://topo-js.github.io/cocha-icons-css/",
   "repository": {
     "type": "git",
     "url": "https://github.com/topo-js/cocha-icons-css"
@@ -25,7 +26,10 @@
   "scripts": {
     "start": "node demo/server.js"
   },
-  "author": "topo",
+  "author": {
+    "name": "topo",
+    "url": "https://github.com/topo-js/cocha-icons-css"
+  },
   "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
   "devDependencies": {}
 }
